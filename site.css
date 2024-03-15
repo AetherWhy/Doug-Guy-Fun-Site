@@ -1,11 +1,30 @@
 .wrapper{
     background-color:blue;
+    float: left;
+    max-width:20vw;
 }
-.absurd{
-    display:block;
-    background-color: green;
-    z-index: 9999;
+body{
+    background-color:coral;
 }
 .tomato{
     color:tomato;
+}
+.below{
+    animation-name: awesome;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+}
+@keyframes awesome{
+ 0%{color:blue;}
+ 10%{color:red;}
+ 20%{color:yellow;}
+ 30%{color:purple;}
+ 40%{color:orange;}
+ 50%{color:black;}
+ 60%{color:green;}
+ 70%{color:gray;}
+ 80%{color:lightgreen;}
+ 90%{color:maroon;}
+ 100%{color:turquoise;}
+
 }
